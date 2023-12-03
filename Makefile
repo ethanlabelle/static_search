@@ -1,3 +1,3 @@
 all:
-	clang -march=native search.c -o search
+	clang -march=native search.c -o search -lm
 
